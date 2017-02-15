@@ -3,9 +3,7 @@
 
 	function initMap(position){
 
-		map.setCenter({
-			position: {lat: position.coords.latitude, lng: position.coords.longitude}
-		});
+		map.setCenter({lat: position.coords.latitude, lng: position.coords.longitude});
 
 		map.setZoom(16);
 
