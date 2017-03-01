@@ -4,12 +4,23 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaTJVcWVOlY-9mkycEiYntLWYNZEppfZI"></script>
 </head>
 
 <body>
 	<h4> Google Maps API Example - Branch 3 - We Fouuund Yoouuuu</h4>
+	<div class="preloadWrapper">
+		<i class="fa fa-circle-o-notch fa-spin"></i>
+		<span>loading map...</span>
+	</div>
+	
 	<div class="map-wrapper"></div>
+
+	<h4 class="geocode-header">Using the Geocode API</h4>
+	<input type="textbox" class="address">
+	<button class="geocode">Code Address</button>
+	
 	<script src="js/main.js"  type="text/javascript"></script>
 </body>
 </html>
